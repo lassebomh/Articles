@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet"> 
     <title>Article name</title>
 </head>
 <body>
     <div class="outer-body">
         <div class="left-sidebar">
-            <div class="site-navigator">
-                <b>
-                    <a href="#">WebsiteName</a><br/>
-                    <a href="#">Articles</a><br/>
-                    <a href="#">About</a><br/>
-                </b>
-            </div>
-            <div class="content-navigator">
+            <div class="site-navigator"><b>
+                <a href="#"><div>Home</div></a>
+                <a href="#"><div>Articles</div></a>
+                <a href="#"><div>About</div></a>
+            </div></b>
+            <!-- <div class="content-navigator">
                 <div><a href="#">Some title</a>
                     <div><a href="#">Some title</a>
                         <div><a href="#">Some title</a>
@@ -24,7 +23,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class='inner-body'>
 
@@ -52,7 +51,8 @@
             <pre class="code">
 12gfuug4 47f9WWWWWoiods
 asdlf
-asdfn</pre>
+asdfn
+</pre>
             
         </div>
         <div>
