@@ -2,12 +2,28 @@
 /* testing */
 /* div {background-color: rgba(255, 0, 0, 0.185);} */
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+
+:root {
+    --text-color: rgb(53, 54, 56);
+    --text-color-light: rgb(98, 100, 104);
+    --font-rubik: 'Rubik Mono One', sans-serif;
+}
+
+a {
+    color: #F36C00;
+    text-decoration: none;
+}
+
 html {
     font-size: 18px;
+    color: var(--text-color);
 }
 
 body {
     margin: 0;
+    background-image: url(./bg.png);
+    
 }
 
 .outer-body {
@@ -17,33 +33,59 @@ body {
     margin-top: 15vh;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-rubik);
+}
+
 
 /* Left sidebar */
 
 .left-sidebar {
     text-align: right;
+    margin-left: 3rem;
 }
 
 .site-navigator {
-    padding-bottom: 0.8rem;
+    padding-bottom: 2rem;
     margin-top: 0;
 }
 
-.site-navigator > a {
+.site-navigator a {
     font-size: 1.5rem;
+    color: var(--text-color);
+    text-decoration: none;
 }
-.site-navigator > br {
+.site-navigator br {
     line-height: 2.5rem;
 }
 
 .content-navigator {
-    
+    --navigator-tab-length: 2.5rem;
+
+    text-align: left;
+    float: right;
 }
+
+.content-navigator div {
+    padding-left: var(--navigator-tab-length);
+    padding-top: 0.5rem;
+    width: fit-content;
+}
+.content-navigator > div {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.content-navigator a {
+    text-decoration: none;
+}
+
+
 
 /* Article body */
 
-.inner-body {
-    
+.inner-body :first-child {
+    margin-top: 0;
 }
 
 .article-header > img {
@@ -51,7 +93,7 @@ body {
 }
 
 .article-header > h1 {
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 .article-header > div {
@@ -67,7 +109,7 @@ body {
 }
 
 .txt-img-full div {
-    color: rgb(128, 128, 128);
+    color: var(--text-color-light);
     padding-top: 0.5rem;
     font-size: 1rem;
 }
@@ -82,10 +124,9 @@ body {
     margin-bottom: 1rem;
 }
 
-
 .seperate {
     width: 100%;
-    border-bottom: 1px solid rgb(104, 104, 104);
+    border-bottom: 1px solid var(--text-color-light);
     margin-bottom: 2rem;
     padding-bottom: 2rem;
     margin-left: auto;
