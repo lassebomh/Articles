@@ -12,6 +12,7 @@
     --code-border-color: rgba(173, 173, 173, 0);
     --code-background-color: rgb(61, 61, 61);
     --code-color: rgb(233, 233, 233);
+    --bg-color: #fff
 }
 
 .dark-theme-checkbox:checked ~ .outer-body {
@@ -21,6 +22,7 @@
     --code-border-color: rgba(243, 239, 21, 0);
     --code-background-color: rgb(61, 61, 61);
     --code-color: rgb(255, 17, 204);
+    --bg-color: rgb(0, 0, 0)
 }
 
 html {
@@ -34,7 +36,7 @@ div, p, span {
 
 body {
     margin: 0;
-    background-image: url(./bg.png);
+    background: var(--bg-color);
 }
 
 img {
@@ -117,8 +119,6 @@ a {
 }
 
 .txt-img-full {
-    max-width: 90%;
-    width: fit-content;
     display: block;
     margin-left: auto;
     margin-right: auto;
