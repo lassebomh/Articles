@@ -46,7 +46,13 @@
                 <img src="wide.jpg" alt="text">
                 <div>this is the text underneath. Very cool</div>
             </div>
-
+            <p>
+                one time there were a code and his name was <span class="code">j000hhhnnnn</span>
+            </p>
+            <pre class="code">
+12gfuug4 47f9WWWWWoiods
+asdlf
+asdfn</pre>
             
         </div>
         <div>
