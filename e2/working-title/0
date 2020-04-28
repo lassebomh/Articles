@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./../../theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet"> 
+    <title>How to use E2 to earn BIG in DarkRP</title>
+</head>
+<body>
+    <div class="outer-body">
+        <div class="left-sidebar">
+            <div class="site-navigator"><b>
+                <a href="#"><div>Home</div></a>
+                <a href="#"><div>Articles</div></a>
+                <a href="#"><div>About</div></a>
+            </div></b>
+            <!-- <div class="content-navigator">
+                <div><a href="#">Some title</a>
+                    <div><a href="#">Some title</a>
+                        <div><a href="#">Some title</a>
+                            <div><a href="#">Some title</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div class='inner-body'>
+            <!-- starticle -->
+
+
+            <div class="article-header seperate">
+                <h1>Juicing every penny out of DarkRP (with E2)</h1>
+                <img src="wide.jpg" alt="text">
+                <div>
+                    Description text...... this is the text underneath. Very cool this is
+                    the text undernea underneath. Very cool
+                </div>
+            </div>
+            
+
+
+        <!-- endicle -->
+        </div>
+        <div></div>
+    </div>
+</body>
+</html>
