@@ -1,0 +1,17 @@
+
+body {
+    margin: 0
+}
+
+.outer-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.inner-body {
+    background-color: #f09;
+}
+
+.table-contents {
+
+}
