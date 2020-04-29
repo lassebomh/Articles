@@ -15,22 +15,11 @@
     --bg-color: #fff
 }
 
-.dark-theme-checkbox:checked ~ .outer-body {
-    --black-light: rgba(209, 9, 9, 0.993);
-    --text-color: rgb(22, 86, 216);
-    --text-color-light: rgb(255, 0, 242);
-    --code-border-color: rgba(243, 239, 21, 0);
-    --code-background-color: rgb(61, 61, 61);
-    --code-color: rgb(255, 17, 204);
-    --bg-color: rgb(0, 0, 0)
-}
-
-html {
+:root {
     font-size: 22px;
 }
 
 div, p, span {
-    color: var(--text-color);
     font-family: var(--text-font);
 }
 
@@ -107,7 +96,7 @@ a {
 
 .article-header > h1 {
     /* margin-top: 0; */
-    margin-top: -0.5rem !important;
+    margin-top: -2rem !important;
 }
 
 .article-header > div {
